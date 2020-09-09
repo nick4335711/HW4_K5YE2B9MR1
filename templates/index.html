@@ -45,11 +45,27 @@
 
         <div class="icon">    
             <h2>Global </h2>
-            <select name="west_africa" id="global_tins">
-                {% for country in countries %}
-                  <option value="{{country}}">{{country}}</option>
-                {% endfor %}
-              </select>
+            <form action="/" method="post" id="myform">
+                <select name="west_africa" id="global_tins" onchange="document.getElementById('myform').submit()">
+                  <option value="Benin" selected="selected">Benin</option>
+                  <option value="Burkina Faso">Burkina Faso</option>
+                  <option value="Cape Verde">Cape Verde</option>
+                  <option value="Gambia">Gambia</option>
+                  <option value="Ghana">Ghana</option>
+                  <option value="Guinea">Guinea</option>
+                  <option value="Guinea-Bissau">Guinea-Bissau</option>
+                  <option value="Cote d'Ivoire">Cote d'Ivoire</option>
+                  <option value="Liberia">Liberia</option>
+                  <option value="Mali">Mali</option>
+                  <option value="Mauritania">Mauritania</option>
+                  <option value="Niger">Niger</option>
+                  <option value="Nigeria">Nigeria</option>
+                  <option value="Senegal">Senegal</option>
+                  <option value="Sierra Leone">Sierra Leone</option>
+                  <option value="Togo">Togo</option>
+                </select>
+              </form>
+  
     
         </div> 
 
@@ -59,10 +75,10 @@
         <div class="stbtxt2">Total Coronavirus Cases</div>
 
         <div class="icon1">    
-            <h2>1,245,347 </h2>
+            <!-- <h2>1,245,347 </h2> -->
     
         </div> 
-
+        <p>{{data.Confirmed}}</p>
         
     </div>
     <div class="satusbarbox3">
@@ -70,10 +86,10 @@
         <div class="stbtxt3">Total Recovered</div>
 
         <div class="icon2">    
-            <h2>259,544 </h2>
+            <!-- <h2>259,544 </h2> -->
     
         </div> 
-
+        <p>{{data.Recovered}}</p>
         
     </div>
     <div class="satusbarbox4">
@@ -81,10 +97,10 @@
         <div class="stbtxt4">Total Deaths</div>
 
         <div class="icon3">    
-            <h2>68,184 </h2>
+            <!-- <h2>68,184 </h2> -->
     
         </div>
-
+        <p>{{data.Deaths}}</p>
     </div>
 
 </div>
