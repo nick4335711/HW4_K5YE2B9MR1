@@ -1,0 +1,370 @@
+.box1{
+    background: #30178d;
+    color: white;
+    height: 70px;
+}
+h4{
+    display: inline-block;
+    position: relative;
+    left: 11%;
+}
+ .anchors{
+     display: inline-block;
+     position: relative;
+     left: 52%;
+ }
+ .home{
+     display: inline-block;
+     position: relative;
+     left: 51%;
+ }
+ .anchors > a{
+     color: white;
+     padding: 10px;
+     text-decoration: none;
+ }
+ .home > a{
+     color: red;
+     text-decoration: none;
+ }
+ .box1 >img{
+     display: inline-block;
+     position: absolute;
+     left: 6%;
+     width: 60px;
+ }
+ .box2 >img{
+     width: 490px;
+     height: 470px;
+     position: relative;
+     left: 55%;
+     top: 12%;    
+ }
+ .box2{
+     margin-top: 0.5px;
+     height: 732px;
+     background: #30178d
+ }
+ .text2{
+     position: absolute;
+     top: 40%;
+     color: white;
+ }
+ .text2 > h2{
+     position: relative;
+     left: 14%;
+ }
+ button{
+     position: relative;
+     left: 14%;
+ }
+ .btn1{
+     background-color: rgba(228, 15, 114, 0.933);
+     color: white;
+     border-color: rgba(228, 15, 114, 0.933);
+     border-radius: 5px;
+     border: 0px solid;
+     padding: 5px;
+ }
+ .btn2{
+     background-color: #30178d;
+     color: white;
+     border-radius: 5px;
+     border: 1.5px solid;
+     padding: 4px;
+ }
+.statusbar{
+    width: 70rem;
+    height: 8rem;
+    background: #f4f4f4;
+    position: absolute;
+    z-index: 1;
+    left: 8%;
+    top: 107%;
+    border-radius: 10px;
+}
+/* #global_tins{
+    width: 50%;
+    border: none;
+    background-color: white;
+} */
+.satusbarbox1 >img{
+    width: 60px;
+    display: inline-block;
+    position: absolute;
+    left: 5%;
+    bottom: 28%;
+}
+.stbtxt1{
+    display: inline-block;
+    position: absolute;
+    left: 11.5%;
+    margin-top: 35px;
+}
+.icon{
+    display: inline-block;
+    position: absolute;
+    left: 11.5%;
+    bottom: 10%; 
+}
+.satusbarbox2 > img{
+    width: 65px;
+    display: inline-block;
+    position: absolute;
+    left: 26%;
+    bottom: 28%;
+}
+.stbtxt2{
+    display: inline-block;
+    position: absolute;
+    left: 32.5%;
+    margin-top: 35px;
+}
+.icon1{
+    display: inline-block;
+    position: absolute;
+    left: 32.5%;
+    bottom: 10%; 
+}
+.satusbarbox3 > img{
+    width: 65px;
+    display: inline-block;
+    position: absolute;
+    left: 54%;
+    bottom: 28%;
+}
+.stbtxt3{
+    display: inline-block;
+    position: absolute;
+    left: 60.5%;
+    margin-top: 35px;
+}
+.icon2{
+    display: inline-block;
+    position: absolute;
+    left: 60.5%;
+    bottom: 10%; 
+}
+.satusbarbox4 > img{
+    width: 65px;
+    display: inline-block;
+    position: absolute;
+    left: 76.5%;
+    bottom: 28%;
+}
+.stbtxt4{
+    display: inline-block;
+    position: absolute;
+    left: 82.5%;
+    margin-top: 35px;
+}
+.icon3{
+    display: inline-block;
+    position: absolute;
+    left: 82.5%;
+    bottom: 10%; 
+}
+ .box3{
+     background: #ddd;
+     height: 915px;
+ }
+ .box3row1{
+     width: 70rem;
+     height: 668px;
+     position: relative;
+     left: 7.5%;
+     top: 12.5%;
+     /* background: yellow; */
+ }
+ .box3row1a{
+     display: inline-block;
+     width: 46rem;
+     height: 668px;
+     position: relative;
+     /* left: 5.5%; */
+     /* top: 4.5%; */
+     bottom: 1.5%;
+     background:white;
+     border-radius: 10px;
+ }
+ path{
+     fill: #f7f8f9;
+     transition: fill ease-in-out;
+ }
+ path:hover{
+     fill: #e3486e;
+     cursor: pointer;
+ }
+ svg{
+     width: 43rem;
+     height: 36rem;
+     position: relative;
+     left: 3%;
+     top: 8%;
+ }
+ .row1atxt{
+     display: inline-block;
+     position: relative;
+     left: 5%;
+     top: 4%;
+     z-index: 1;
+ }
+ .row1atxt1{
+    display: inline-block;
+    position: relative;
+    left: 40%;
+    top: 4%;
+    z-index: 1;
+    color: #4f3d8d;
+}
+.row1atxt2{
+    display: inline-block;
+    position: relative;
+    left: 48%;
+    top: 4%;
+    z-index: 1;
+    color: #4f3d8d;
+}
+ .box3row1b{
+     display: inline-block;
+    width: 23rem;
+    height: 668px;
+    position: relative;
+    left: 1.5%;
+    /* top: 4.5%; */
+    background: white;
+    border-radius: 10px;
+}
+.filt > input{
+    width: 20.5rem;
+    height: 2.2rem;
+    /* background: turquoise; */
+    position: relative;
+    left: 5%; 
+    border: 1px solid #a5a2a2;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    padding-left: 16px;
+    box-sizing: border-box;
+}
+.global{
+    display: inline-block;
+    width: 20.5rem;
+    height: 2.2rem;
+    /* background: rgb(115, 224, 64); */
+    border: 1.8px solid #826ada;
+    border-radius: 5px;
+    position: relative;
+    left: 5%; 
+    margin-bottom: 10px;
+    color: #402994;
+
+}
+.hr{
+    width: 20.5rem;
+    position: relative;
+    left: 5%; 
+}
+.glo{
+    display: inline-block;
+    position: relative;
+    left: 5%; 
+    top: 25%;
+}
+.glonum{
+    display: inline-block;
+    position: relative;
+    left: 62%;
+    top: 25%;
+}
+.us{
+    display: inline-block;
+    width: 20.5rem;
+    height: 3rem;
+    background: #ddd;
+    border-radius: 5px;
+    margin-top: 12px;
+    position: relative;
+    left: 5%;
+}
+.us > img{
+    width: 30px;
+    position: relative;
+    left: 4%;
+    top: 20%;
+}
+.us > p{
+    display: inline-block;
+    position: relative;
+    left: 8%;
+    color: #202994;
+}
+span{
+    float: right;
+    margin-top: 18px;
+    margin-right: 15px;
+    color: #583bc4;
+}
+ .box6{
+     background: #30178d;
+     height: 361px;
+     color: white;
+ }
+ .box6col1{
+     display: inline-block;
+     /* background: chartreuse; */
+     position: relative;
+     left: 6%;
+     top: 6%
+ }
+ .box6col1 > img{
+     display: inline-block;
+     width: 60px;
+ }
+ .box6covid{
+     display: inline-block;
+     /* color: crimson; */
+     position: absolute;
+     /* left: 20%; */
+     bottom: 40%;
+ }
+ .box7{
+    background: #30178d;
+    height: 100px;
+    margin-top: 1px;
+    color: white;
+ }
+ .box7 > p{
+     display: inline-block;
+     position: relative;
+     left: 35%;
+     top: 20%;
+ }
+ .ft1{
+     display: inline-block;
+     position: relative;
+     left: 8%; 
+     top: 20%;
+     width: auto;
+     height: auto;
+ }
+ .ft2{
+    display: inline-block;
+    position: relative;
+    left: 10%;
+ }
+ .ft3{
+     display: inline-block;
+     position: relative;
+     left: 15%;
+     top: 11%;
+ }
+.ft4{
+    display: inline-block;
+    /* background: crimson; */
+    position: relative;
+    left: 22%;
+    bottom: 30%;
+    /* width: 10rem; */
+}
